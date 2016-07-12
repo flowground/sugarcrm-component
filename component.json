@@ -71,10 +71,7 @@
     "actions": {
         "getContactsByPhoneNumber": {
             "main": "./lib/actions/getContactsByPhoneNumber.js",
-            "title": "Get contacts by phone",
-            "metadata": {
-                "in": "./lib/schemas/getContactsByPhoneNumber.in.json"
-            }
+            "title": "Get contacts by phone"
         },
         "createOrUpdateAccount": {
             "main": "./lib/actions/createOrUpdateAccount.js",
