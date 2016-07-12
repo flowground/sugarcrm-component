@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "phone": {
+      "type": "string",
+      "required": true,
+      "title": "Phone"
+    }
+  }
+}

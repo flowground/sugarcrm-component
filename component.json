@@ -69,6 +69,13 @@
         }
     },
     "actions": {
+        "getContactsByPhoneNumber": {
+            "main": "./lib/actions/getContactsByPhoneNumber.js",
+            "title": "Get contacts by phone",
+            "metadata": {
+                "in": "./lib/schemas/getContactsByPhoneNumber.in.json"
+            }
+        },
         "createOrUpdateAccount": {
             "main": "./lib/actions/createOrUpdateAccount.js",
             "title": "Sync Account",
