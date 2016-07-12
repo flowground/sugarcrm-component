@@ -1,4 +1,4 @@
-describe('Verify Credentials', function () {
+xdescribe('Verify Credentials', function () {
     var nock = require('nock');
 
     var verify = require('../verifyCredentials.js');
